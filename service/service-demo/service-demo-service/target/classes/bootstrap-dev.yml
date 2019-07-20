@@ -1,0 +1,15 @@
+spring:
+  log:
+    dir: /log/spring-cloud-examples-2.x
+    rootLevel: info
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://mylocal.eureka1:37666/eureka/
+  instance:
+    prefer-ip-address: true
+    appname: ${spring.application.name}
+    instance-id: ${spring.cloud.client.ip-address}::${server.port}
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 30

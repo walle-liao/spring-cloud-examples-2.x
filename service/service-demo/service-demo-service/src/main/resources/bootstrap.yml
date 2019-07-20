@@ -1,0 +1,13 @@
+server:
+  port: 38666
+
+spring:
+  application:
+    name: service-demo
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: dev
+
+logging:
+  file: classpath:/logback-spring.xml

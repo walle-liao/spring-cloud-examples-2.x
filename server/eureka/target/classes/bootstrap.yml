@@ -1,0 +1,13 @@
+server:
+  port: 37666
+
+spring:
+  application:
+    name: server-eureka
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: dev
+
+logging:
+  file: classpath:/logback-spring.xml
