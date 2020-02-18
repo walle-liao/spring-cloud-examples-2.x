@@ -12,6 +12,8 @@
         <module>service</module>
         <module>web</module>
         <module>dependencies-bom</module>
+        <module>infra</module>
+        <module>examples</module>
     </modules>
     <packaging>pom</packaging>
 

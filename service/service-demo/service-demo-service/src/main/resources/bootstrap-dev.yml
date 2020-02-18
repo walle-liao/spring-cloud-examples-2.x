@@ -6,7 +6,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://mylocal.eureka1:37666/eureka/
+      defaultZone: http://mylocal.eureka1:37666/eureka/,http://mylocal.eureka2:37667/eureka/
   instance:
     prefer-ip-address: true
     appname: ${spring.application.name}

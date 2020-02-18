@@ -11,5 +11,12 @@
 
     <artifactId>web-common</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.qfang.examples</groupId>
+            <artifactId>cloud-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

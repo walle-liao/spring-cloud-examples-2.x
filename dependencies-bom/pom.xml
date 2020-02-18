@@ -61,6 +61,8 @@
         <!-- export excel -->
         <poi_version>4.1.0</poi_version>
 
+        <jsonrpc4j_version>1.5.3</jsonrpc4j_version>
+
         <!-- swagger  -->
         <swagger_version>1.5.19</swagger_version>
         <springfox_swagger_ui_version>2.7.0</springfox_swagger_ui_version>
@@ -283,6 +285,14 @@
                 <artifactId>poi</artifactId>
                 <version>${poi_version}</version>
             </dependency>
+
+            <!-- jsonrpc4j -->
+            <dependency>
+                <groupId>com.github.briandilley.jsonrpc4j</groupId>
+                <artifactId>jsonrpc4j</artifactId>
+                <version>${jsonrpc4j_version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

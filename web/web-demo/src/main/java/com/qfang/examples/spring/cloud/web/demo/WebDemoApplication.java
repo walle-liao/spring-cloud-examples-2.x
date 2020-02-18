@@ -1,6 +1,7 @@
-package com.qfang.examples.spring.cloud.service.demo;
+package com.qfang.examples.spring.cloud.web.demo;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
@@ -9,10 +10,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since 1.0
  */
 @SpringBootApplication
-public class DemoApplication {
+@ImportAutoConfiguration
+public class WebDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(WebDemoApplication.class, args);
     }
 
 }

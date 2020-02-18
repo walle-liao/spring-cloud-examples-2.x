@@ -1,13 +1,49 @@
-server:
-  port: 37666
 
 spring:
   application:
     name: server-eureka
   main:
     allow-bean-definition-overriding: true
-  profiles:
-    active: dev
+
+  log:
+    dir: /log/spring-cloud-examples-2.x
+    rootLevel: debug
+
 
 logging:
   file: classpath:/logback-spring.xml
+
+
+---
+spring:
+  profiles: e1
+server:
+  port: 37666
+
+eureka:
+  instance:
+    hostname: mylocal.eureka1
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://mylocal.eureka1:37666/eureka/  # 集群节点之间互相 peek
+  server:
+    enable-self-preservation: false
+
+---
+spring:
+  profiles: e2
+server:
+  port: 37667
+
+eureka:
+  instance:
+    hostname: mylocal.eureka2
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://mylocal.eureka2:37667/eureka/
+  server:
+    enable-self-preservation: false  # 关闭自我保护模式

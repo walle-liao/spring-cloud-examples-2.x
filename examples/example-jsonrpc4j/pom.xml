@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>examples</artifactId>
+        <groupId>com.qfang.examples</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>example-jsonrpc4j</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>jsonrpc4j-server</module>
+        <module>jsonrpc4j-api</module>
+        <module>jsonrpc4j-client</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.briandilley.jsonrpc4j</groupId>
+            <artifactId>jsonrpc4j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-gradle-plugin</artifactId>
+            <version>2.2.4.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+</project>

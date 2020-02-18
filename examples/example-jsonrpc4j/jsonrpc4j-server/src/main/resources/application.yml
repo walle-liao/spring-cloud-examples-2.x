@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: jsonrpc4j-server
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: dev
