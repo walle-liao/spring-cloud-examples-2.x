@@ -51,7 +51,7 @@
 
         <!-- pdf -->
         <pdfbox-tools_version>2.0.11</pdfbox-tools_version>
-        <pdfbox_version>2.0.11</pdfbox_version>
+        <pdfbox_version>2.0.15</pdfbox_version>
         <flying-saucer-pdf_version>9.1.15</flying-saucer-pdf_version>
 
         <!-- 二维码 -->
