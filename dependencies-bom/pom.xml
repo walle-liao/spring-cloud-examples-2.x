@@ -39,7 +39,7 @@
         <!-- mybatis -->
         <oracle_ojdbc6_version>11.2.0.3.0</oracle_ojdbc6_version>
         <druid_version>1.1.10</druid_version>
-        <mybatis_version>3.5.1</mybatis_version>
+        <mybatis_version>3.5.6</mybatis_version>
         <mybatis_spring_version>2.0.1</mybatis_spring_version>
         <mybatis_pagehelper_version>5.1.4</mybatis_pagehelper_version>
 
