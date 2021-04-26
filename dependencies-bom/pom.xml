@@ -15,7 +15,7 @@
 
         <!-- Common libs -->
         <commons_lang3_version>3.8.1</commons_lang3_version>
-        <commons_io_version>2.4</commons_io_version>
+        <commons_io_version>2.7</commons_io_version>
         <commons_collections4_version>4.1</commons_collections4_version>
         <commons_fileupload_version>1.2.2</commons_fileupload_version>
         <commons_codec_version>1.6</commons_codec_version>
